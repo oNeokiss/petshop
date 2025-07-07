@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Petshop </title>
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   
+    <header>
+        <div class="logo">
+            <img src="img/petshop.png" alt="Logo do petshop"/>
+        </div>
+        <div class="header-right">
+
+            <form class="search-bar">
+                <input type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                <button type="submit" aria-label="Buscar">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="html/sobre-nos.html">Sobre Nós</a></li>
+                <li><a href="html/servicos.html">Serviços</a></li>
+                <li><a href="html/produtos.html">Produtos</a></li>
+                <li><a href="html/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        
+        </div>
+    </header>
+    <main>
+
+        <!-- SEÇÃO 1: BANNER PRINCIPAL (HERO) -->
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Tudo para o seu Pet</h1>
+                <p>As melhores marcas com os melhores preços.</p>
+                <a href="produtos.html" class="cta-button">Ver Ofertas</a>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: CATEGORIAS -->
+        <section id="categorias">
+            <div class="container">
+                <h2>Navegue por Categoria</h2>
+                <div class="categorias-container">
+                    <a href="#" class="categoria-item">
+                        <div class="imagem-fundo"> 
+                            <img src="img/cao.png" alt="Cachorro">
+                        </div>
+                        <span>Cachorros</span>
+                    </a>
+                    <a href="#" class="categoria-item">
+                        <div class="imagem-fundo">
+                        <img src="img/gato.png" alt="Gato">
+                        </div>
+                        <span>Gatos</span>
+                    </a>
+                    <a href="#" class="categoria-item">
+                        <div class="imagem-fundo">
+                        <img src="img/passaro (1).png" alt="Pássaros">
+                        </div>
+                        <span>Pássaros</span>
+                    </a>
+                    <a href="#" class="categoria-item">
+                        <div class="imagem-fundo">
+                        <img src="img/peixe .png" alt="Peixes">
+                        </div>
+                        <span>Peixes</span>
+                    </a>
+                    <a href="#" class="categoria-item">
+                        <div class="imagem-fundo">
+                        <img src="img/tiranossauro-rex (1).png" alt="Outros Pets">
+                    </div>
+                        <span>Outros Pets</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: PRODUTOS EM OFERTA -->
+        <section id="ofertas">
+            <div class="container">
+                <h2>As melhores ofertas pra você</h2>
+                <div class="product-grid">
+                    <!-- Produto 1 -->
+                    <div class="product-card">
+                        <span class="discount-badge">15% OFF</span>
+                        <img src="img/ração.jpeg" alt="Ração Premium">
+                        <h3 class="product-title">Ração Seca Super Premium para Cães Adultos 15kg</h3>
+                        <div class="product-price">
+                            <span class="old-price">R$ 259,90</span>
+                            <span class="new-price">R$ 220,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                    <!-- Produto 2 -->
+                    <div class="product-card">
+                        <img src="img/arranhador.jpeg" alt="Arranhador">
+                        <h3 class="product-title">Arranhador para Gatos Torre com Múltiplos Níveis</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 189,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                    <!-- Produto 3 -->
+                    <div class="product-card">
+                         <span class="discount-badge">10% OFF</span>
+                        <img src="img/aquario.webp" alt="Caminha">
+                        <h3 class="product-title">Aquário Quili 24l Blackbox Q-24 + Filtro + Decoração Natural</h3>
+                        <div class="product-price">
+                             <span class="old-price">R$ 999,90</span>
+                            <span class="new-price">R$ 769,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                    <!-- Produto 4 -->
+                    <div class="product-card">
+                        <img src="https://placehold.co/300x300?text=Brinquedo" alt="Brinquedo">
+                        <h3 class="product-title">Brinquedo Interativo Dispenser de Petiscos</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 45,50</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SEÇÃO 4: BANNERS DE SERVIÇOS -->
+        <section id="servicos-banner">
+            <div class="container">
+                <a href="servicos.html" class="servico-card" id="servico-vet">
+                    <div class="servico-content">
+                        <h3>Clínica Veterinária</h3>
+                        <p>Agende uma consulta para o seu melhor amigo.</p>
+                    </div>
+                </a>
+                <a href="servicos.html" class="servico-card" id="servico-estetica">
+                    <div class="servico-content">
+                        <h3>Banho e Tosa</h3>
+                        <p>Deixe seu pet limpinho e estiloso com nossos profissionais.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2024 Meu Petshop Querido. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
