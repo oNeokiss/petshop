@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Mundo Pet</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../img/petshop.png" alt="Logo do petshop"/></a>
+        </div>
+        <div class="header-right">
+            <form class="search-bar">
+                <input type="search" name="q" placeholder="Pesquisar..." aria-label="Pesquisar">
+                <button type="submit" aria-label="Buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </form>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="produtos-page">
+            <div class="container">
+                <div class="page-intro">
+                    <h1>Nossos Produtos</h1>
+                    <p>
+                        Encontre tudo o que seu pet precisa em um só lugar. Selecionamos as melhores marcas e produtos para garantir a saúde e a felicidade do seu melhor amigo.
+                    </p>
+                </div>
+                
+                <div class="filtros-container">
+                    <button class="filtro-btn active" data-filter="todos">Todos</button>
+                    <button class="filtro-btn" data-filter="racao">Rações</button>
+                    <button class="filtro-btn" data-filter="brinquedo">Brinquedos</button>
+                    <button class="filtro-btn" data-filter="higiene">Higiene</button>
+                    <button class="filtro-btn" data-filter="acessorio">Acessórios</button>
+                </div>
+                
+                <div class="product-grid" id="product-list">
+      
+                    <div class="product-card" data-category="racao">
+                        <span class="discount-badge">15% OFF</span>
+                        
+                        <img src="../img/ração.jpeg" alt="Ração Cães">
+                        <h3 class="product-title">Ração Seca Super Premium para Cães Adultos 15kg</h3>
+                        <div class="product-price">
+                            <span class="old-price">R$ 179,90</span>
+                            <span class="new-price">R$ 152,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+     
+                    <div class="product-card" data-category="brinquedo">
+                     
+                        <img src="../img/arranhador.jpeg" alt="Arranhador">
+                        <h3 class="product-title">Arranhador para Gatos Torre com Múltiplos Níveis</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 189,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+              
+                    <div class="product-card" data-category="acessorio">
+                         <span class="discount-badge">10% OFF</span>
+                        
+                        <img src="../img/camagato.webp" alt="Caminha">
+                        <h3 class="product-title">Cama Retangular Macia para Cães e Gatos Tam. M</h3>
+                        <div class="product-price">
+                             <span class="old-price">R$ 99,90</span>
+                            <span class="new-price">R$ 89,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+            
+                    <div class="product-card" data-category="brinquedo">
+                      
+                        <img src="https://placehold.co/300x300/A8E67E/000?text=Brinquedo" alt="Brinquedo">
+                        <h3 class="product-title">Brinquedo Interativo Dispenser de Petiscos</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 45,50</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                    
+                    <div class="product-card" data-category="higiene">
+                        <img src="https://placehold.co/300x300/FFA3B1/fff?text=Shampoo" alt="Shampoo">
+                        <h3 class="product-title">Shampoo Antipulgas e Carrapatos para Cães 500ml</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 55,00</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+    
+                    <div class="product-card" data-category="racao">
+                        <img src="https://placehold.co/300x300/f5a623/fff?text=Ração+Gatos" alt="Ração Gatos">
+                        <h3 class="product-title">Ração Seca Premium para Gatos Castrados Sabor Salmão</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 89,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+           
+                    <div class="product-card" data-category="acessorio">
+                        <img src="https://placehold.co/300x300/333/fff?text=Coleira" alt="Coleira">
+                        <h3 class="product-title">Coleira Peitoral com Guia para Cães de Porte Médio</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 78,00</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                
+                    <div class="product-card" data-category="higiene">
+                        <img src="https://placehold.co/300x300/FFA3B1/fff?text=Tapete+Higiênico" alt="Tapete Higiênico">
+                        <h3 class="product-title">Tapete Higiênico Super Absorvente - Pacote com 30</h3>
+                        <div class="product-price">
+                            <span class="new-price">R$ 65,90</span>
+                        </div>
+                        <a href="#" class="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Meu Petshop. Todos os direitos reservados.</p>
+    </footer>
+
+   
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
